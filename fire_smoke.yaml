@@ -1,0 +1,6 @@
+train: /home/abdelrahman-amgad/dev/AI/fire-detection/home-fire-dataset/train/images
+val: /home/abdelrahman-amgad/dev/AI/fire-detection/home-fire-dataset/val/images
+nc: 2
+names:
+  0: fire
+  1: smoke
