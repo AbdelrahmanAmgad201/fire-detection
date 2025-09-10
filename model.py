@@ -10,6 +10,7 @@ class DINOBackbone(nn.Module):
 
         def forward(self, x):
             outputs = self.model(**x)
+            feat = outputs.last_hidden_state 
             B, L, D = feat.shape
             H = W = int(L**0.5)  
             feat = feat.transpose(1, 2).view(B, D, H, W)  
