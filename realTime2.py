@@ -17,7 +17,7 @@ from ultralytics import YOLO
 from ultralytics.models.yolo.detect.train import DetectionTrainer
 from ultralytics.utils.loss import v8DetectionLoss
 from ultralytics.engine.results import Results
-from ultralytics.utils.ops import non_max_suppression, scale_boxes
+# from ultralytics.utils.ops import non_max_suppression, scale_boxes
 
 from types import SimpleNamespace
 
